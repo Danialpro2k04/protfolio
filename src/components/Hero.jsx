@@ -169,7 +169,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center overflow-hidden bg-[#020408] bg-grid"
+      className="relative min-h-screen flex items-center bg-[#020408] bg-grid"
     >
       {/* Background radial glow */}
       <div className="absolute inset-0 pointer-events-none">
@@ -183,7 +183,7 @@ const Hero = () => {
         />
       </div>
 
-      <div className="max-w-7xl mx-auto px-6 py-32 w-full grid md:grid-cols-2 gap-16 items-center">
+      <div className="max-w-7xl mx-auto px-6 py-32 w-full grid md:grid-cols-[1fr_1fr] gap-8 items-center">
         {/* ── LEFT: Text Content ── */}
         <motion.div
           variants={containerVariants}
@@ -201,10 +201,10 @@ const Hero = () => {
 
           {/* Main Headline */}
           <motion.div variants={itemVariants}>
-            <h1 className="font-display font-extrabold leading-none tracking-tight">
-              <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white mb-1">Architecting</span>
-              <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl gradient-text mb-1 whitespace-nowrap">Autonomous AI</span>
-              <span className="block text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white whitespace-nowrap">& Scalable LLMOps.</span>
+            <h1 className="font-display font-extrabold leading-tight tracking-tight">
+              <span className="block text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-white mb-1">Architecting</span>
+              <span className="block text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl gradient-text mb-1">Autonomous AI</span>
+              <span className="block text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-white">& Scalable LLMOps.</span>
             </h1>
           </motion.div>
 
