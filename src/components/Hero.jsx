@@ -201,10 +201,10 @@ const Hero = () => {
 
           {/* Main Headline */}
           <motion.div variants={itemVariants}>
-            <h1 className="font-display font-extrabold leading-tight tracking-tight">
+            <h1 className="font-display font-extrabold leading-none tracking-tight">
               <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white mb-1">Architecting</span>
-              <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl gradient-text mb-1">Autonomous AI</span>
-              <span className="block text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white">& Scalable LLMOps.</span>
+              <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl gradient-text mb-1 whitespace-nowrap">Autonomous AI</span>
+              <span className="block text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white whitespace-nowrap">& Scalable LLMOps.</span>
             </h1>
           </motion.div>
 
